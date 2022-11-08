@@ -1,0 +1,87 @@
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Oswald", sans-serif;
+  padding: 0.2rem;
+}
+
+.month-name {
+  box-sizing: border-box;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  padding: 0.5em;
+  background-color: #eee;
+  outline: 1px solid #eee;
+}
+
+.calendar {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-gap: 1px;
+  flex-wrap: wrap;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.week-day {
+  box-sizing: border-box;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center;
+  padding: 0.5em;
+  background-color: #eee;
+  outline: 1px solid #d5d5d5;
+}
+
+.calendar-day {
+  position: relative;
+  width: 100%;
+  /* flex-grow: 1; */
+
+  text-align: center;
+  box-sizing: border-box;
+
+  outline: 1px solid #d5d5d5;
+  /* border: 1px solid #d5d5d5;
+  margin-top: -1px;
+  margin-left: -1px; */
+}
+
+.calendar-day .day-number {
+  font-size: 1.5em;
+  font-weight: bold;
+  /* position: absolute; */
+  top: 0;
+  right: 0;
+  background-color: #f8ffba;
+}
+
+.period {
+  width: 100%;
+  border-bottom: 1px dotted #d5d5d5;
+  border-top: 1px dotted #d5d5d5;
+  margin-top: -1px;
+  padding: 0.5rem 0;
+
+  display: flex;
+  flex-direction: row;
+  background-color: #17ff1717;
+}
+
+.period-dose {
+  width: 100%;
+  text-align: center;
+}
+
+.period-time {
+  width: 100%;
+  text-align: center;
+}
+
+.observation {
+  width: 100%;
+  text-align: left;
+  padding: 0.5rem;
+}
