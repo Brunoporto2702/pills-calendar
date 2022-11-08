@@ -7,4 +7,5 @@ This calendar was made to be on the kitchen, so everyone that lives in the house
 just double click "index.html" to run on your machine.
 
 Example result:
-![download (6)](https://user-images.githubusercontent.com/53821307/200659230-b9b884c4-53cf-42e5-ab3a-53ed66da6842.png)
+
+![download (7)](https://user-images.githubusercontent.com/53821307/200659755-c275d904-0f1e-4a70-8fb5-7c612dddca78.png)
